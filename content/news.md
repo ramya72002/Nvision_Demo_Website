@@ -1,68 +1,44 @@
 ---
 title: News
 layout: news
-content: Who are We?
-        NVision IT was founded in 2004 with a vision of transforming today’s business systems challenges into tomorrow’s successes. Although information technology is what we are known for, we consider the underlying business processes in everything we do. We focus on our clients’ strategic goals and incorporate them into the solutions we recommend using the most effective methods available. Our clients range from mid-sized to Fortune 500 companies in the public, private and governmental sectors. Industries served include defense, healthcare, education, manufacturing, technology, telecom, utilities and transportation.
-
-        NVision IT’s team of dedicated professionals are passionate news teaming with our clients to help them achieve their strategic goals. Our team is knowledgeable news the latest technology and current business trends which allows them to work effectively and build a strong relationship with our clients based on mutual trust and understanding.
-
-        We work based on the principle of providing world class solutions delivered at a reasonable price. Defining the project budget up front allows us to deliver the product within the predefined resource constraints. The lower costs of deployment and rapid implementation enables our clients to see their ideas come to life without unexpected delays and cost overruns. Success is achieved due to our team’s exceptional experience and the trust our clients have in us.
-
-        Our Key Differentiators
-        Experience
-        Value
-        Right Sourcing
-        Shared Services
-        Vetting Process
-        We Stand By Our Work
 draft: false
-plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started for free
-    link: "/contact"
+Articles:
+  - title: NVision IT Makes the List!
+    image: /images/news11.png
+    content: |
+      NVision IT is an Inc. 500 company ranking # 451 in America and 7th in Missouri, an exclusive ranking of the nation's fastest-growing private companies. The Inc. 5000 represents what can be achieved when you are passionate about your cause.
+    link: https://www.inc.com/profile/nvision-it
 
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
-  type: month
-  recommended: true
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
-  button:
-    label: Get started
-    link: "/contact"
+  - title: NVision IT has achieved Oracle Gold Partner Status
+    image: /images/news22.png
+    content: |
+      Oracle has recognized NVision IT for its commitment to establish Oracle related knowledge in delivering solutions to their customers. NVision IT supports a wide range of Oracle products including Oracle Database 12c and Oracle E-Business Suite.
+    link : https://www.oracle.com/partnernetwork/program/
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started
-    link: "/contact"
+  - title: NVision IT partners with Canon to provide document imaging and management solutions to help            transform      organizations through digitization initiatives.
+    image: /images/news33.png
+    content: |
+      Cloud computing benefits include flexibility, efficiency, cost savings, and strategic advantage. As an Oracle Cloud partner, NVision can offer both public cloud solutions and private cloud solutions. Oracle Cloud is the industry’s broadest and most integrated public cloud. It offers best-in- class services across software as a service (SaaS), platform as a service (PaaS), and infrastructure as a service (IaaS). NVision IT offers complete Oracle SaaS suite enterprise solutions such as accounting, HR, procurement, project management, service, sales management, marketing, transportation management, and supply chain.
+    link: https://www.prnewswire.com/news-releases/nvision-it-collaborates-with-canon-information-and-imaging-solutions-inc-to-accelerate-the-rollout-of-solutions-based-on-the-enterprise-imaging-platform-by-canon-300245464.html
 
-call_to_action:
-  title: Need a larger plan?
-  content: Hi.
-  image: '/images/cta.svg'
-  button:
-    enable: true
-    label: "Contact Us"
-    link: "/contact"
-    
+  - title: NVision IT made it to the Inc. Magazine's 35th Annual List of America's Fastest-Growing Private Companies--the Inc. 5000
+    image: /images/news44.png
+    content: |
+      The desire for personalized applications that clients can term “My Application” is in high demand. Finding a solution that completely satisfies all requirements is almost nonexistent. Therefore, one has to build the application based on client-specific requirements. Custom Application Development allows solutions to be created based on client’s requirements, objectives and ideas. This complex process requires in-depth expertise in both development technologies and business processes. NVision IT has a technology-centric, enthusiastic and dedicated team who take a special interest in understanding clients’ requirements and objectives to fulfill the defined custom application development needs. Our methodology includes interacting with clients so that we understand their needs and develop an application solution together. We achieve this by coordinating and cooperating with our clients in every step of the process, resulting in a mutually beneficial relationship.  NVision IT follows a System Development Life Cycle approach for custom application development. Gathering requirements and analyzing the details helps our team visualize the outline of the application. This process and information helps in planning future phases of application development. Recording the collected data and sharing it with active team members enables a greater understanding of the application. Our system architecture experts prepare the required detailed diagrams, flow charts, etc., to facilitate application development and our experienced developers create the application during the design phase. Our subject matter experts oversee the entire process until development is completed. One of the final steps in the development process is to perform unit and integration testing to make sure the product meets the requirements and is bug free.   Some of our technical expertise includes customizing Oracle Application processes to fit the unique needs of our clients in workflow customizations, Oracle Application Framework (OAF), custom forms, and PL/SQL procedures.
+
+  - title: NVision IT made it to the 100 Most Promising Oracle Solution Providers 2016
+    image: /images/news55.png
+    content: |
+      NVision IT provides Database Support to our clients for effective functioning of database related queries. Our consultants have in-depth knowledge of database related activities and can assist clients with transactional guidance. Our Database experts are well versed with tasks including installation, configuration, patching, backups, etc. If there is a specialized client need we can match up our consultant’s expertise with their expectations.  We partner with our clients to understand their database requirements by assisting them with continuous monitoring, maintenance, and the protection of critical data. Once we understand our clients’ requirements, we provide them with a team of experienced support consultants who help them achieve their goals.    Our database experts are highly qualified professionals who are masters in handling complex ERP implementations, migrations, and upgrades. Using our database support services, you can reduce costs by standardizing regular database-related tasks, outsourcing continuous database maintenance, and enhancing database performance. We take on your database related worries so that you can concentrate on improving your business.  Our process-based approach enables clients to consolidate their end-to-end database services at an affordable price. We provide specialized and cost-effective database services to our clients, exclusively designed to address their unique business needs..
+
+  - title: Database Administrator Shared Services
+    image: /images/service5.jpg
+    content: |
+      At NVision IT, we also offer Database Administrator Shared Services which enables us to utilize the services of our database administrators in multiple locations. The DBA shared services allows us to deliver similar database tasks without affecting quality and still maintaining the consistency of our work. It also enables us to improve our work efficiency, automate processes and utilize the services of database administrators across the globe.   The increasing demands for organizations to improve the quality of service delivery while maintaining or reducing operating costs are forcing them to try innovative methods to succeed.
+      There are a variety of reasons to implement a shared services model including continuous improvement and reorganizing and reducing redundancy. This typically results in increases in quality, flexibility, and sustainable efficiencies as well as decreases in operating costs - all leading toward improved business operations.    Plans are carefully developed to establish methods for sharing information. We assess and group the common tasks across entities and analyze factors including requirements and feasibility. We perform a detailed assessment to develop plans to minimize the risks involved while the transformation occurs between consultant and client.    We strive to deliver shared services by the most effective methods available. We regularly monitor the entire process and implement continuous improvement adjustments to deliver the best results for our clients.
+
+  - title: Staff Augmentation
+    image: /images/service5.jpg
+    content: |
+      We take great pride in our recruitment process and in our consultants. Our consultants are selectively recruited based on their education, experience, and 'CAN DO' approach. Through our widespread network and extensive contacts, we are able to recruit highly skilled technical professionals who have in-depth knowledge of implementing ERP systems, developing custom applications and have Business Intelligence expertise. Our consultants team with clients to help bring their project goals to realization. They understand the importance of delivering world-class services and are aware that cultivating a healthy professional relationship are important factors for achieving success.    We understand that clients need consultants with varied skill sets at different phases of their projects. We are prepared to handle various technologies and expertise levels while keeping our clients’ satisfaction first and foremost. With NVision IT, you can have confidence that we will provide a highly skilled consultant who will not only deliver the desired application, but will also be a dedicated resource for your project.    Before determining which consultant will be right for the project, we perform a detailed study of your requirements. We follow a rigorous selection procedure, wherein the stages of resume review, preliminary screening, technical interview, and interpersonal skills assessment are thoughtfully followed in order to select the ideal candidate. We also perform reference checks to verify candidates have the relevant skillset and experience our clients expect.    We encourage our consultants to learn new technologies and be familiar with the latest trends so that they can easily adapt to clients’ changing requirements. Often we select consultants whose experience is tailored to our client’s project. If that is not feasible, we encourage our consultants to master the domains/platforms our clients need them to work on as quickly as possible. Being subject matter experts in related areas, our consultants are quick to learn and can adapt to the client requirements in a fairly short timeframe.
 ---

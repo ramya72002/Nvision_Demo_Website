@@ -37,3 +37,16 @@
 .section-content div {
   flex-grow: 1;
 }
+/* publicSector.module.css */
+
+.public-sector-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.public-sector-content {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+}

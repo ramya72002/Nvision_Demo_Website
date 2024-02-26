@@ -5,7 +5,10 @@ banner:
   images:
       - "/images/homePicture.png"
       - "/images/homePicture1.png"
-      - "/images/homePicture2.jpg"
+      - "/images/homePicture2.png"
+      - "/images/homePicture3.png"
+      - "/images/homePicture4.png"
+      - "/images/homePicture5.png"
   button:
     label: "Contact Us"
     link: "/contact"

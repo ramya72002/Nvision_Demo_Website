@@ -43,7 +43,9 @@ const Services = ({ data }) => {
                 }`}
                 style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px' }}
               >
-                <img src={service.image} alt={`Service ${index + 1}`} className="rounded-md mb-4" />
+                <img src={service.image} alt={`Service ${index + 1}`}
+                 className="rounded-md mb-4"
+                 style={{ height: '200px' }} />
                 <h2 className="text-xl font-bold mb-2">{service.title}</h2>
                 <p className="mb-4">
                   {expandedServices.includes(index)

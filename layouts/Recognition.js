@@ -1,19 +1,30 @@
 import React from 'react';
+import { Card, CardMedia, Grid, Typography, Container } from '@mui/material';
 
 const Recognition = ({ data }) => {
-  const {
-    frontmatter: { title, content },
-  } = data;
+  const { frontmatter: { title, images } } = data;
 
   return (
-    <section className="bg-gray-100 py-16">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8">{title}</h1>
-        <div className="max-w-3xl mx-auto">
-          <p className="text-gray-700 leading-relaxed">{content}</p>
-        </div>
-      </div>
-    </section>
+    <Container>
+      <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
+        {title}
+      </Typography>
+      <Grid container spacing={2} justifyContent="center">
+        {images.map((image, index) => (
+          <Grid item key={index}>
+            <Card sx={{ maxWidth: 300 }}>
+              <CardMedia
+                component="img"
+                alt={`Recognition ${index + 1}`}
+                height="740"
+                image={image.path}
+                sx={{ filter: 'brightness(0.7) contrast(1.2)' }}
+              />
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
+    </Container>
   );
 };
 

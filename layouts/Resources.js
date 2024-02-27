@@ -1,19 +1,46 @@
 import React from 'react';
+import { Card, CardContent, CardMedia, Button, Link, Typography, Grid, Container } from '@mui/material';
+import FileOpenRoundedIcon from '@mui/icons-material/FileOpenRounded';
 
 const Resources = ({ data }) => {
-  const {
-    frontmatter: { title, content },
-  } = data;
+  const { frontmatter: { title, Resources } } = data;
 
   return (
-    <section className="bg-gray-100 py-16">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8">{title}</h1>
-        <div className="max-w-3xl mx-auto">
-          <p className="text-gray-700 leading-relaxed">{content}</p>
-        </div>
-      </div>
-    </section>
+    <Container>
+      <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
+        {title}
+      </Typography>
+      <Grid container spacing={2} justifyContent="center">
+        {Resources.map((resource, index) => (
+          <Grid item key={index}>
+            <Link href={resource.link} underline="none" target="_blank" rel="noopener noreferrer">
+              <Card
+                sx={{
+                  borderRadius: '50%',
+                  overflow: 'hidden',
+                  width: 250,
+                  height: 250,
+                  transition: 'background-color 0.3s', // Smooth transition effect
+                  ':hover': {
+                    backgroundColor: 'lightcoral', // Light red color on hover
+                  },
+                }}
+              >
+                <CardMedia
+                  component={FileOpenRoundedIcon}
+                  sx={{ fontSize: 100, color: 'red' }} // Set the color to red
+                />
+                <CardContent>
+                  <Typography variant="h6" align="center" style={{ textDecoration: 'underline' }}>
+                    {resource.title}
+                  </Typography>
+                </CardContent>
+              </Card>
+            </Link>
+          </Grid>
+        ))}
+      </Grid>
+    </Container>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Typography, Grid, Paper } from '@mui/material';
 
 const About = ({ data }) => {
   const {
@@ -7,18 +8,26 @@ const About = ({ data }) => {
 
   return (
     <div>
-      <h1 className='text-4xl font-bold text-center mb-8'>{title}</h1>
-      {sections.map((section, index) => (
-        <div key={index} className="section-box">
-          <div className="section-content">
-            <img src={section.image} alt={section.title} />
-            <div>
-              <h3>{section.title}</h3>
-              <p>{section.content}</p>
-            </div>
-          </div>
-        </div>
-      ))}
+      <Typography variant="h1" align="center" className='text-4xl font-bold mb-8'>
+        {title}
+      </Typography>
+      <Grid container spacing={2}>
+        {sections.map((section, index) => (
+          <Grid item xs={12} key={index}>
+            <Paper elevation={3} className="section-box">
+              <Grid container spacing={2} className="section-content">
+                <Grid item>
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
+                    <Typography variant="h5">{section.title}</Typography>
+                    <img src={section.image} alt={section.title} style={{ width: '5%', marginLeft: '1rem' }} />
+                  </div>
+                  <Typography variant="body1">{section.content}</Typography>
+                </Grid>
+              </Grid>
+            </Paper>
+          </Grid>
+        ))}
+      </Grid>
     </div>
   );
 };

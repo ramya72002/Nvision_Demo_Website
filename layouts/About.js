@@ -8,7 +8,7 @@ const About = ({ data }) => {
 
   return (
     <div>
-      <Typography variant="h1" align="center" className='text-4xl font-bold mb-8'>
+      <Typography variant="h3" align="center" className='text-4xl font-bold mb-8'>
         {title}
       </Typography>
       <Grid container spacing={2}>

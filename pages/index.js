@@ -38,6 +38,8 @@ const Home = ({ frontmatter }) => {
                     className="absolute top-0 left-0 w-full h-full object-cover"
                     src={image}
                     layout="fill"
+                    // objectFit="cover" 
+                    // objectPosition="center" 
                     alt={`banner image ${index + 1}`}
                   />
                 </div>

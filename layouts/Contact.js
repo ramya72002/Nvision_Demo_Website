@@ -9,7 +9,7 @@ const Contact = ({ data }) => {
   return (
     <section className="section">
       <div className="container">
-        {markdownify(title, "h1", "text-center font-normal")}
+        {markdownify(title, "h2", "text-center font-normal")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form
@@ -58,7 +58,9 @@ const Contact = ({ data }) => {
           </div>
           <div className="content col-12 md:col-6 lg:col-5">
             {markdownify(info.title, "h4")}
-            {markdownify(info.description, "p", "mt-4")}
+            {markdownify(info.description, "p")}
+            <h4>Note:</h4>
+            {markdownify(info.note, "p", "mt-4")}
             <ul className="contact-list mt-5">
               {info.contacts.map((contact, index) => (
                 <li key={index}>

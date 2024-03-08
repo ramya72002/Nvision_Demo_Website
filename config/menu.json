@@ -42,10 +42,6 @@
       "name": "Company",
       "menu": [
         {
-          "text": "Pricing",
-          "url": "/pricing"
-        },
-        {
           "text": "Quick Start",
           "url": "#"
         }
@@ -61,10 +57,6 @@
         {
           "text": "Platform",
           "url": "#"
-        },
-        {
-          "text": "Pricing",
-          "url": "/pricing"
         }
       ]
     },

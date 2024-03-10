@@ -14,8 +14,8 @@ export default async function handler(req, res) {
     });
 
     const mailOptions = {
-      from: 'nsriramya7@gmail.com', // Replace with your Gmail email address
-      to: 'sowmya.ucen123@gmail.com', // Replace with your destination email address
+      from: email, // Replace with your Gmail email address
+      to: 'nsriramya7@gmail.com', // Replace with your destination email address
       subject: `New Contact Form Submission - ${subject}`,
       text: `Name: ${name}\nEmail: ${email}\nSubject: ${subject}\nMessage: ${message}`,
     };

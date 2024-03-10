@@ -1,3 +1,4 @@
+import React from 'react';
 import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
 
@@ -15,7 +16,7 @@ const Contact = ({ data }) => {
             <form
               className="contact-form"
               method="POST"
-              action={contact_form_action}
+              action="/api/submitform"  
             >
               <div className="mb-3">
                 <input
@@ -47,6 +48,7 @@ const Contact = ({ data }) => {
               <div className="mb-3">
                 <textarea
                   className="form-textarea w-full rounded-md"
+                  name="message"   
                   rows="7"
                   placeholder="Your message"
                 />
@@ -60,7 +62,7 @@ const Contact = ({ data }) => {
             {markdownify(info.title, "h4")}
             {markdownify(info.description, "p")}
             <h4>Note:</h4>
-            {markdownify(info.note, "p", "mt-4")}
+            {markdownify(info.note, "p")}
             <ul className="contact-list mt-5">
               {info.contacts.map((contact, index) => (
                 <li key={index}>

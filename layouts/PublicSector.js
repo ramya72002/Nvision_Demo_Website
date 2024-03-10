@@ -15,8 +15,8 @@ const PublicSector = ({ data }) => {
   return (
   
     <Container maxWidth="md">
-           <Paper elevation={3} sx={{ p: 4, margin: 0 }}>
-        <Typography variant="h4" align="center" sx={{ mb: 4 }}>
+           <Paper elevation={3} sx={{ p: 4,margin: '0 -16px'}}>
+        <Typography variant="h4" align="center" sx={{ mb: 4,mt :0 }}>
     {title}
   </Typography>
  

@@ -9,5 +9,7 @@ info:
   contacts: 
     - "phone: +88 125 256 452"
     - "Mail: [info@nvisionit.com](mailto:info@nvisionit.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Address: 743 Spirit 40 Park Drive
+                Suite 204
+                Chesterfield, MO 63005"
 ---

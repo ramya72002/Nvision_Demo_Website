@@ -8,9 +8,9 @@ const Contact = ({ data }) => {
   const { contact_form_action } = config.params;
 
   return (
-    <section className="section">
+    <section className="section" style={{backgroundColor: '#FAEEFA'}}>
       <div className="container">
-        {markdownify(title, "h2", "text-center font-normal")}
+        {markdownify(title, "h2", "text-4xl font-bold text-center mb-8")}
         <div className="section row pb-0">
           <div className="col-12 md:col-6 lg:col-7">
             <form

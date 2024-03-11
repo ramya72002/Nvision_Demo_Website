@@ -7,14 +7,14 @@ const About = ({ data }) => {
   } = data;
 
   return (
-    <div>
-      <Typography variant="h3" align="center" className='text-4xl font-bold mb-8'>
+    <div style={{ margin: '20px' }}>
+      <Typography variant="h3" className='text-4xl font-bold text-center mb-8' style={{ backgroundColor: '#FAEEFA' }}>
         {title}
       </Typography>
-      <Grid container spacing={2}>
+      <Grid container spacing={2} style={{ backgroundColor: '#FAEEFA', margin: '-20px' }}>
         {sections.map((section, index) => (
           <Grid item xs={12} key={index}>
-            <Paper elevation={3} className="section-box">
+            <Paper elevation={3} className="section-box" style={{ padding: '16px', borderRadius: '20px' }}>
               <Grid container spacing={2} className="section-content">
                 <Grid item>
                   <div style={{ display: 'flex', alignItems: 'center' }}>

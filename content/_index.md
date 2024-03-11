@@ -38,8 +38,8 @@ feature:
 
 # services
 services:
-  - title: "It is the most advanced digital marketing and it company."
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Bridging Innovation and Business Excellence."
+    content: "We can help you reimagine your business through a digital lens. Our software engineering heritage combined with our strategic business and innovation consulting, design thinking, and physical-digital capabilities provide real business value to our customers through human-centric innovation."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -49,8 +49,8 @@ services:
       label: Conect with us for more info
       link: /contact
 
-  - title: "It is a privately owned Information and cyber security company"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Excellence"
+    content: "We take pride in the quality of solutions we deliver. We constantly strive to deliver best solutions in on time, ensuring maximum business value."
     images: 
       - "/images/service-slide-1.png"
     button:
@@ -58,8 +58,8 @@ services:
       label:  Conect with us for more info
       link: /contact
   
-  - title: "It’s a team of experienced and skilled people with distributions"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Our Values"
+    content: "We are driven by innovation. Innovation happens when there is a community of people who stand by each other, and work towards a unified vision. The only way we do this is by building a flat- organization in which we support and empowers each other in our journey."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"
@@ -69,8 +69,8 @@ services:
       label:  Conect with us for more info
       link: /contact
 
-  - title: "A company standing different from others"
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat. consectetur adipiscing elit. Consequat tristique eget amet, tempus eu at consecttur. Leo facilisi nunc viverra tellus. Ac laoreet sit vel consquat."
+  - title: "Nvision company standing different from others"
+    content: "Our social construct is based on constant collaboration and finding new ways to solve problems. Learning is at the crux of our growth process, and we encourage constant learning across domains. We believe in nurturing the spark of curiosity, and we are open to new ideas from everyone in our Nvision community."
     images:
       - "/images/service-slide-1.png"
       - "/images/service-slide-2.png"

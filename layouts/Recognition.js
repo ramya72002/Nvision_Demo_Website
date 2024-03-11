@@ -5,7 +5,7 @@ const Recognition = ({ data }) => {
   const { frontmatter: { title, images } } = data;
 
   return (
-    <Container>
+    <Container style={{backgroundColor: '#FAEEFA'}}>
       <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
         {title}
       </Typography>

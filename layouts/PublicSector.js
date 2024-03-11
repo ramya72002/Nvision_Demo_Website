@@ -14,9 +14,9 @@ const PublicSector = ({ data }) => {
 
   return (
   
-    <Container maxWidth="md">
-           <Paper elevation={3} sx={{ p: 4,margin: '0 -16px'}}>
-        <Typography variant="h4" align="center" sx={{ mb: 4,mt :0 }}>
+    <Container maxWidth="md" style={{backgroundColor: '#FAEEFA'}}>
+           <Paper elevation={3} sx={{ p: 4 }}>
+        <Typography variant="h4" className='text-4xl font-bold text-center mb-8'>
     {title}
   </Typography>
  
@@ -37,7 +37,7 @@ const PublicSector = ({ data }) => {
         <Typography variant="h4">Acquisition:</Typography>
         <Grid container spacing={3}>
           <Grid item xs={6}>
-            <Typography variant="h5">NAICS:</Typography>
+            <Typography variant="h5">Naics:</Typography>
             <ul>
               {acquisition.naics.map((naic, index) => (
                 <li key={index}>{naic}</li>
@@ -45,7 +45,7 @@ const PublicSector = ({ data }) => {
             </ul>
           </Grid>
           <Grid item xs={6}>
-            <Typography variant="h5">PSC:</Typography>
+            <Typography variant="h5">Psc:</Typography>
             <ul>
               {acquisition.psc.map((psc, index) => (
                 <li key={index}>{psc}</li>

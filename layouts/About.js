@@ -7,14 +7,14 @@ const About = ({ data }) => {
   } = data;
 
   return (
-    <div style={{ margin: '20px' }}>
+    <div style={{ backgroundColor: '#FAEEFA'}}>
       <Typography variant="h3" className='text-4xl font-bold text-center mb-8' style={{ backgroundColor: '#FAEEFA' }}>
         {title}
       </Typography>
       <Grid container spacing={2} style={{ backgroundColor: '#FAEEFA', margin: '-20px' }}>
         {sections.map((section, index) => (
-          <Grid item xs={12} key={index}>
-            <Paper elevation={3} className="section-box" style={{ padding: '16px', borderRadius: '20px' }}>
+          <Grid item xs={12} key={index} >
+            <Paper elevation={3} className="section-box" style={{ padding: '16px', borderRadius: '20px' ,backgroundColor: '#edf6f5' }}>
               <Grid container spacing={2} className="section-content">
                 <Grid item>
                   <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -25,9 +25,13 @@ const About = ({ data }) => {
                 </Grid>
               </Grid>
             </Paper>
+           
           </Grid>
         ))}
       </Grid>
+       {/* Add space above the footer */}
+       <div style={{ marginTop: '20px' }}>
+      </div>
     </div>
   );
 };

@@ -1,68 +1,46 @@
 ---
 title: Careers
 layout: careers
-content: Who are We?
-        NVision IT was founded in 2004 with a vision of transforming today’s business systems challenges into tomorrow’s successes. Although information technology is what we are known for, we consider the underlying business processes in everything we do. We focus on our clients’ strategic goals and incorporate them into the solutions we recommend using the most effective methods available. Our clients range from mid-sized to Fortune 500 companies in the public, private and governmental sectors. Industries served include defense, healthcare, education, manufacturing, technology, telecom, utilities and transportation.
+bannerImage: /path/to/careerBanner.png
+content:
+  - title: Oracle Applications R12 Financial Functional Consultant
+    primary: Must specify your current location and rate. Only resumes with these details are considered. Start date 12/01/15
 
-        NVision IT’s team of dedicated professionals are passionate Careers teaming with our clients to help them achieve their strategic goals. Our team is knowledgeable Careers the latest technology and current business trends which allows them to work effectively and build a strong relationship with our clients based on mutual trust and understanding.
+    description: |
+      NVision IT, an Inc. 500 company and Oracle Gold Partner with solid growth, is looking for Oracle Financial Functional resources who can work with the users to make the correct configuration decisions during the R12 upgrade. Responsible for applying business and functional knowledge to meet the team’s overall design and test objectives. These candidates MUST HAVE upgrade experience in the financial modules including Receivables, Payables, GL, and SLA. Help the client determine the right decisions. Should be able to understand the configuration impacts and recommend solutions based on the business process.
 
-        We work based on the principle of providing world class solutions delivered at a reasonable price. Defining the project budget up front allows us to deliver the product within the predefined resource constraints. The lower costs of deployment and rapid implementation enables our clients to see their ideas come to life without unexpected delays and cost overruns. Success is achieved due to our team’s exceptional experience and the trust our clients have in us.
+      - Must have involvement in 3 or more upgrade projects as a financial SME
+      - GL, SLA, P2P, OTC experience is required
+      - Attend requirements gathering meetings with the Client to collect requirements and drive the upgrade effort
+      - Responsible for business process flow creation, fit gap analysis documentation, and requirement traceability documentation
+      - Serve as an Oracle Financials SME with our client to recommend best practice solutions for upgrading to R12
+      - Identify all risks and issues along with possible mitigation steps.
 
-        Our Key Differentiators
-        Experience
-        Value
-        Right Sourcing
-        Shared Services
-        Vetting Process
-        We Stand By Our Work
-draft: false
-plans:
-- title: Basic Plan
-  subtitle: Best For Small Individuals
-  price: 49
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started for free
-    link: "/contact"
+    qualifications:
+      - 3 or more upgrade projects as a financial SME
+      - Oracle R12 upgrade experience from 11i in the GL, SLA, PTP, and OTC
+      - Multi-Currency and Intercompany experience
 
-- title: Professional Plan
-  subtitle: Best For Professionals
-  price: 69
-  type: month
-  recommended: true
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-    - Cloud Service
-    - Best Dashboard
-  button:
-    label: Get started
-    link: "/contact"
+    applyInstructions: |
+      Please submit your resume with rate, current location, and visa status to recruiter@nvisioninfotech.com. No Third Party candidates. St. Louis Local Candidates only.
 
-- title: Business Plan
-  subtitle: Best For Large Individuals
-  price: 99
-  type: month
-  features:
-    - Express Service
-    - Customs Clearance
-    - Time-Critical Services
-  button:
-    label: Get started
-    link: "/contact"
+  - title: Oracle Secure Global Desktop
+    primary: NVision IT is looking for a solid Oracle Global Secure Desktop professional with 2 to 4 years of experience.
 
-call_to_action:
-  title: Need a larger plan?
-  content: Hi.
-  image: '/images/cta.svg'
-  button:
-    enable: true
-    label: "Contact Us"
-    link: "/contact"
+    description: |
+      NVision IT, an Inc. 500 company and Oracle Gold Partner with solid growth, is looking for Oracle Financial Functional resources who can work with the users to make the correct configuration decisions during the R12 upgrade. Responsible for applying business and functional knowledge to meet the team’s overall design and test objectives. These candidates MUST HAVE upgrade experience in the financial modules including Receivables, Payables, GL, and SLA. Help the client determine the right decisions. Should be able to understand the configuration impacts and recommend solutions based on the business process.
+
+    qualifications:
+      - 2 to 4 years of experience with Oracle Global Secure Desktop
+      - Knowledge of Oracle databases
+      - Knowledge of other Oracle technologies
+      - Preferred - System administrator experience
+
+    additionalInfo: |
+      Work location can be St. Louis, San Antonio, Chicago, Dayton, or remote with occasional travel. US Citizens and all other parties authorized to work in the US are encouraged to apply. We are unable to sponsor at this time.
+
+      Please submit your resume with rate, current location, and visa status to recruiter@nvisioninfotech.com. No Third Party candidates. St. Louis Local Candidates only.
     
+    applyInstructions: |
+      Please submit your resume with rate, current location, and visa status to recruiter@nvisioninfotech.com. No Third Party candidates. St. Louis Local Candidates only.
 ---

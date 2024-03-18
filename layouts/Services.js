@@ -30,7 +30,7 @@ const Services = ({ data }) => {
     }, []); // Run this effect only once, similar to componentDidMount
   
     return (
-      <section className="bg-gray-100 py-16">
+      <section className="bg-gray-100 py-16" style={{backgroundColor: '#FAEEFA'}}>
         <div className="container mx-auto">
           <h1 className="text-4xl font-bold text-center mb-8">{title}</h1>
   
@@ -39,9 +39,9 @@ const Services = ({ data }) => {
               <div
                 key={index}
                 className={`bg-white p-6 rounded-md ${
-                    visible[index] ? 'fade-in shadow-md' : 'invisible'
+                    visible[index] ? 'zoom-in shadow-md' : 'invisible'
                 }`}
-                style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px' }}
+                style={{backgroundColor: '#edf6f5', boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px'}}
               >
                 <img src={service.image} alt={`Service ${index + 1}`}
                  className="rounded-md mb-4"

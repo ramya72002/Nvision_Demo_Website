@@ -9,8 +9,6 @@ import Recognition from "@layouts/Recognition";
 import News from "@layouts/News";
 import PublicSector from "@layouts/PublicSector";
 import Careers from "@layouts/Careers";
-
-import Pricing from "@layouts/Pricing";
 import { getRegularPage, getSinglePage } from "@lib/contentParser";
 
 // for all regular pages
@@ -32,8 +30,6 @@ const RegularPages = ({ data }) => {
         <NotFound data={data} />
       ) : layout === "contact" ? (
         <Contact data={data} />
-      ) : layout === "pricing" ? (
-        <Pricing data={data} />
       ) : layout === "about" ? (
         <About data={data} />
       ) : layout === "services" ? (

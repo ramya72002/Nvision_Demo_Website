@@ -1,5 +1,5 @@
 ---
-title: "Public Sector"
+title: Public Sector
 layout: publicSector
 draft: false
 content: |
@@ -48,7 +48,8 @@ contract vehicles:
 
     Contractor’s STARS III Program Manager: |
       Venkat Pulumati
-      [vpulumati@nvisioninfotech.com](mailto:vpulumati@nvisioninfotech.com)
+      [vpulumati@nvisioninfotech.com]
+      (mailto:vpulumati@nvisioninfotech.com)
       314-249-0824
 
 ---

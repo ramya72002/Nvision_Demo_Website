@@ -6,7 +6,7 @@ const Resources = ({ data }) => {
   const { frontmatter: { title, Resources } } = data;
 
   return (
-    <Container>
+    <Container style={{backgroundColor: '#FAEEFA'}}>
       <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
         {title}
       </Typography>
@@ -16,6 +16,7 @@ const Resources = ({ data }) => {
             <Link href={resource.link} underline="none" target="_blank" rel="noopener noreferrer">
               <Card
                 sx={{
+                  backgroundColor: '#edf6f5',
                   borderRadius: '50%',
                   overflow: 'hidden',
                   width: 250,

@@ -1,4 +1,41 @@
 import React from 'react';
+import { Typography, Grid, Paper } from '@mui/material';
+import { styled } from '@mui/system';
+
+// Styled components for custom styling
+const StyledContainer = styled('div')({
+  backgroundColor: '#F5F5F5',
+  padding: '40px 20px',
+});
+
+const StyledJobPaper = styled(Paper)({
+  padding: '20px',
+  borderRadius: '10px',
+  boxShadow: '0px 2px 10px rgba(0, 0, 0, 0.1)',
+  marginBottom: '20px', // Add margin between job opportunities
+});
+
+const StyledTitle = styled(Typography)({
+  fontSize: '24px',
+  fontWeight: 'bold',
+  marginBottom: '10px',
+});
+
+const StyledSubtitle = styled(Typography)({
+  fontSize: '18px',
+  fontWeight: 'bold',
+  marginBottom: '5px',
+});
+
+const StyledDescription = styled(Typography)({
+  fontSize: '16px',
+  marginBottom: '10px',
+});
+
+const StyledList = styled('ul')({
+  listStyleType: 'disc',
+  paddingLeft: '20px',
+});
 
 const Careers = ({ data }) => {
   const {
@@ -6,14 +43,28 @@ const Careers = ({ data }) => {
   } = data;
 
   return (
-    <section className="bg-gray-100 py-16">
-      <div className="container mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-8">{title}</h1>
-        <div className="max-w-3xl mx-auto">
-          <p className="text-gray-700 leading-relaxed">{content}</p>
-        </div>
-      </div>
-    </section>
+    <StyledContainer  style={{ backgroundColor: '#FAEEFA' }}>
+      <Typography variant="h3" className='text-4xl font-bold text-center mb-8'>
+        {title}
+      </Typography>
+      {content.map((job, index) => (
+        <StyledJobPaper key={index}>
+          <StyledTitle>{job.title}</StyledTitle>
+          <StyledSubtitle>Primary Responsibilities:</StyledSubtitle>
+          <StyledDescription>{job.primary}</StyledDescription>
+          <StyledSubtitle>Description:</StyledSubtitle>
+          <StyledDescription>{job.description}</StyledDescription>
+          <StyledSubtitle>Qualifications:</StyledSubtitle>
+          <StyledList>
+            {job.qualifications.map((qualification, idx) => (
+              <li key={idx}>{qualification}</li>
+            ))}
+          </StyledList>
+          <StyledSubtitle>Apply Instructions:</StyledSubtitle>
+          <StyledDescription>{job.applyInstructions}</StyledDescription>
+        </StyledJobPaper>
+      ))}
+    </StyledContainer>
   );
 };
 

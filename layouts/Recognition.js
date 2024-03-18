@@ -5,7 +5,7 @@ const Recognition = ({ data }) => {
   const { frontmatter: { title, images } } = data;
 
   return (
-    <Container>
+    <Container style={{backgroundColor: '#FAEEFA'}}>
       <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
         {title}
       </Typography>
@@ -21,9 +21,14 @@ const Recognition = ({ data }) => {
                 sx={{ filter: 'brightness(0.7) contrast(1.2)' }}
               />
             </Card>
+             {/* Add space above the footer */}
+      <div style={{ marginTop: '20px' }}>
+      </div>
           </Grid>
+          
         ))}
       </Grid>
+      
     </Container>
   );
 };

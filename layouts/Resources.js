@@ -10,7 +10,7 @@ const Resources = ({ data }) => {
       <Typography variant="h3" align="center" sx={{ mt: 4, mb: 2 }}>
         {title}
       </Typography>
-      <Grid container spacing={2} justifyContent="center">
+      <Grid container spacing={5} justifyContent="center">
         {Resources.map((resource, index) => (
           <Grid item key={index}>
             <Link href={resource.link} underline="none" target="_blank" rel="noopener noreferrer">

@@ -1,11 +1,39 @@
 import React from 'react';
-import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
   const { title, info } = frontmatter;
-  const { contact_form_action } = config.params;
+  const showAlert = (message, title = 'Alert') => {
+     window.alert(`${title}: ${message}`);
+  }
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const formDataObj = Object.fromEntries(formData);
+
+    try {
+      const response = await fetch('/api/submitform', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formDataObj),
+      });
+
+      if (response.ok) {
+        showAlert('Email sent successfully!', 'Success');
+        event.target.reset();
+      } else {
+        const responseData = await response.json();
+        showAlert(responseData.error || 'An error occurred while sending the email.', 'Error');
+      }
+    } catch (error) {
+      console.error(error);
+      showAlert('An error occurred while sending the email. Please try again later.', 'Error');
+    }
+  };
 
   return (
     <section className="section" style={{backgroundColor: '#FAEEFA'}}>
@@ -15,8 +43,7 @@ const Contact = ({ data }) => {
           <div className="col-12 md:col-6 lg:col-7">
             <form
               className="contact-form"
-              method="POST"
-              action="/api/submitform"  
+              onSubmit={handleSubmit}
             >
               <div className="mb-3">
                 <input
@@ -48,7 +75,7 @@ const Contact = ({ data }) => {
               <div className="mb-3">
                 <textarea
                   className="form-textarea w-full rounded-md"
-                  name="message"   
+                  name="message"
                   rows="7"
                   placeholder="Your message"
                 />

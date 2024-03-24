@@ -7,7 +7,7 @@ const About = ({ data }) => {
   } = data;
 
   return (
-    <div style={{ margin: '20px' }}>
+    <div style={{ backgroundColor: '#FAEEFA'}}>
       <Typography variant="h3" className='text-4xl font-bold text-center mb-8' style={{ backgroundColor: '#FAEEFA' }}>
         {title}
       </Typography>

@@ -24,15 +24,15 @@ export default async function handler(req, res) {
       // Send the email using nodemailer
       await transporter.sendMail(mailOptions);
 
-      // Respond with a success message
-      res.status(200).json({ message: 'Email sent successfully!' });
+      // Respond with a plain text success message
+      res.status(200).send('Email sent successfully!');
     } catch (error) {
-      // Handle any errors and respond with a server error message
+      // Handle any errors and respond with a plain text server error message
       console.error(error);
-      res.status(500).json({ message: 'Internal Server Error' });
+      res.status(500).send('Internal Server Error');
     }
   } else {
-    // If the request method is not POST, respond with a method not allowed message
-    res.status(405).json({ message: 'Method Not Allowed' });
+    // If the request method is not POST, respond with a plain text method not allowed message
+    res.status(405).send('Method Not Allowed');
   }
 }

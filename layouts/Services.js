@@ -41,8 +41,7 @@ const Services = ({ data }) => {
                 className={`bg-white p-6 rounded-md ${
                     visible[index] ? 'zoom-in shadow-md' : 'invisible'
                 }`}
-                style={{ boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
-                ':hover': {backgroundColor: '#3ddadb'} }}
+                style={{backgroundColor: '#edf6f5', boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px'}}
               >
                 <img src={service.image} alt={`Service ${index + 1}`}
                  className="rounded-md mb-4"

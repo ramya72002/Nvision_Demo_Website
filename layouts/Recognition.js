@@ -21,9 +21,14 @@ const Recognition = ({ data }) => {
                 sx={{ filter: 'brightness(0.7) contrast(1.2)' }}
               />
             </Card>
+             {/* Add space above the footer */}
+      <div style={{ marginTop: '20px' }}>
+      </div>
           </Grid>
+          
         ))}
       </Grid>
+      
     </Container>
   );
 };

@@ -16,6 +16,7 @@ const Resources = ({ data }) => {
             <Link href={resource.link} underline="none" target="_blank" rel="noopener noreferrer">
               <Card
                 sx={{
+                  backgroundColor: '#edf6f5',
                   borderRadius: '50%',
                   overflow: 'hidden',
                   width: 250,

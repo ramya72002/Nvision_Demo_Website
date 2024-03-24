@@ -69,7 +69,7 @@ services:
       label:  Conect with us for more info
       link: /contact
 
-  - title: "Nvision company standing different from others"
+  - title: "Nvision standing different from others"
     content: "Our social construct is based on constant collaboration and finding new ways to solve problems. Learning is at the crux of our growth process, and we encourage constant learning across domains. We believe in nurturing the spark of curiosity, and we are open to new ideas from everyone in our Nvision community."
     images:
       - "/images/service-slide-1.png"

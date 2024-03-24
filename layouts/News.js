@@ -50,7 +50,8 @@ const News = ({ data }) => {
               className={`bg-white p-6 rounded-md ${
                 visible[index] ? 'fade-in shadow-md' : 'invisible'
               }`}
-              style={{boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px'}}
+              style={{backgroundColor: '#edf6f5',boxShadow: 'rgb(38, 57, 77) 0px 20px 30px -10px',
+            }}
             >
               <img
                 src={article.image}
